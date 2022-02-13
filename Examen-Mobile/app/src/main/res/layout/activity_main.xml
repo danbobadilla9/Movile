@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="com.example.examen.Fragments.MenuFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_menu"/>
+    <fragment
+        android:id="@+id/MatrizFragment"
+        android:name="com.example.examen.Fragments.MatrizFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        tools:layout="@layout/fragment_matriz"/>
+</LinearLayout>

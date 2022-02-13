@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Adder00" device="LCMXO2-7000HE-4TG144C" default_implementation="Adder0">
+    <Options/>
+    <Implementation title="Adder0" dir="Adder0" description="Adder0" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="ha00"/>
+        <Source name="anda00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xora00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="ha00"/>
+        </Source>
+        <Source name="Adder00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Adder001.sty"/>
+</BaliProject>

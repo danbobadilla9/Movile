@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xll1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <EditText
+        android:id="@+id/xetI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/xetN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor"/>
+    <Button
+        android:id="@+id/xbnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alta" />
+
+    <Button
+        android:id="@+id/xbnD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baja" />
+    <Button
+        android:id="@+id/xbnL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir" />
+    <TextView
+        android:id="@+id/xtvL"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/2/2021 15:27:32
+#Project Location: C:/Practica-05; Project name: halfadder00
+prj_project open "C:/Practica-05/halfadder00.ldf"
+prj_src add "C:/Practica-05/hatestbench00/hatestbench00.spf"
+prj_project save
+prj_project close
+#Stop recording: 9/2/2021 16:09:01

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="234dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a3t1"
+                android:text="Celda 1.1" />
+
+            <TextView
+                android:id="@+id/a3t2"
+                android:text="Celda 1.2" />
+
+            <TextView
+                android:id="@+id/a3t3"
+                android:text="Celda 1.3" />
+
+            <TextView
+                android:id="@+id/a3t10"
+                android:text="Celda 1.3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a3t4"
+                android:text="Celda 1.1" />
+
+            <TextView
+                android:id="@+id/a3t5"
+                android:text="Celda 1.2" />
+
+            <TextView
+                android:id="@+id/a3t6"
+                android:text="Celda 1.3" />
+
+            <TextView
+                android:id="@+id/a3t11"
+                android:text="Celda 1.3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a3t7"
+                android:text="Celda 1.1" />
+
+            <TextView
+                android:id="@+id/a3t8"
+                android:text="Celda 1.2" />
+
+            <TextView
+                android:id="@+id/a3t9"
+                android:text="Celda 1.3" />
+
+            <TextView
+                android:id="@+id/a3t12"
+                android:text="Celda 1.3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a3t13"
+                android:text="Celda 1.1" />
+
+            <TextView
+                android:id="@+id/a3t14"
+                android:text="Celda 1.2" />
+
+            <TextView
+                android:id="@+id/a3t15"
+                android:text="Celda 1.3" />
+
+            <TextView
+                android:id="@+id/a3t16"
+                android:text="Celda 1.3" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otro"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="87dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/2/2021 16:07:19
+#Project Location: C:/Practica-06; Project name: Adder00
+prj_project new -name "Adder00" -impl "Adder0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Practica-06/anda00.vhdl"
+prj_src add "C:/Practica-06/xora00.vhdl"
+prj_src add "C:/Practica-06/packageha00.vhdl"
+prj_src add "C:/Practica-06/ha00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/2/2021 16:26:09

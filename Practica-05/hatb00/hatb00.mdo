@@ -1,0 +1,21 @@
+if {![file exists "C:/Practica-05/hatb00/hatb00.mpf"]} { 
+	project new "C:/Practica-05/hatb00" hatb00
+	project addfile "C:/Practica-05/hatb00/packageha00.vhdl"
+	project addfile "C:/Practica-05/hatb00/xora00.vhdl"
+	project addfile "C:/Practica-05/hatb00/anda00.vhdl"
+	project addfile "C:/Practica-05/hatb00/ha00.vhdl"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "C:/Practica-05/hatb00/packageha00.vhdl"
+	vcom -work work "C:/Practica-05/hatb00/xora00.vhdl"
+	vcom -work work "C:/Practica-05/hatb00/anda00.vhdl"
+	vcom -work work "C:/Practica-05/hatb00/ha00.vhdl"
+} else {
+	project open "C:/Practica-05/hatb00/hatb00"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  ha00
+view wave
+add wave /*
+run 1000ns

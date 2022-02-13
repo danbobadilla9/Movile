@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.12/bin/nt64/moduleparser.exe -PROJ hatestbench00 -pf C:/lscc/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pf C:/lscc/diamond/3.12/cae_library/synthesis/verilog/machxo2.v -pkg C:/lscc/diamond/3.12/cae_library/vhdl_packages/vdbs -lst C:/Practica-05/hatestbench00/source_files.lst

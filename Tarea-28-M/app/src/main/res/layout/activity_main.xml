@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/xll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AFFCDD"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desplázame!"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/ingvw9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/nueve" />
+
+        <ImageView
+            android:id="@+id/ingvw7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/siete" />
+        <ImageView
+            android:id="@+id/ingvw8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/ocho" />
+        <ImageView
+            android:id="@+id/ingvw2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/dos" />
+        <ImageView
+            android:id="@+id/ingvw3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/tres" />
+        <ImageView
+            android:id="@+id/ingvw"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/uno"
+            />
+        <ImageView
+            android:id="@+id/ingvw6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/seis" />
+
+        <ImageView
+            android:id="@+id/ingvw4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/cuatro" />
+
+
+
+        <ImageView
+            android:id="@+id/ingvw5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Vamonos!"
+            android:src="@drawable/cinco" />
+
+        <Button
+            android:id="@+id/btnDrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muéveme!"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/xll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical" />
+    <LinearLayout
+        android:id="@+id/xll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+</LinearLayout>

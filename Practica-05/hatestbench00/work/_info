@@ -1,0 +1,199 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Practica-05/hatestbench00
+Eanda00
+Z1 w1630552948
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8C:/Practica-05/hatestbench00/anda00.vhdl
+Z5 FC:/Practica-05/hatestbench00/anda00.vhdl
+l0
+L3 1
+VYMA^Zn9>fb;b:<Rn[39ff3
+!s100 <OW4zYmkKe8WoXA<D7D;@0
+Z6 OT;C;2020.3;71
+32
+Z7 !s110 1630615402
+!i10b 1
+Z8 !s108 1630615401.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Practica-05/hatestbench00/anda00.vhdl|
+Z10 !s107 C:/Practica-05/hatestbench00/anda00.vhdl|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1 CvgOpt 0
+Aanda0
+R2
+R3
+DEx4 work 6 anda00 0 22 YMA^Zn9>fb;b:<Rn[39ff3
+!i122 2
+l11
+Z13 L10 4
+Vh`:XI46?JO]4m59OF7z_U1
+!s100 SC:afRco[7IEWnSF_KGo=2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eha00
+Z14 w1630560710
+Z15 DPx4 work 11 packageha00 0 22 bk`mELNi9507;:RaT5eHT1
+R2
+R3
+!i122 3
+R0
+Z16 8C:/Practica-05/hatestbench00/ha00.vhdl
+Z17 FC:/Practica-05/hatestbench00/ha00.vhdl
+l0
+L6 1
+V19GJ6UId`_<WP;J]?2lo33
+!s100 FLR=GKWf2HaejQ_hD2fZF1
+R6
+32
+R7
+!i10b 1
+Z18 !s108 1630615402.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Practica-05/hatestbench00/ha00.vhdl|
+Z20 !s107 C:/Practica-05/hatestbench00/ha00.vhdl|
+!i113 1
+R11
+R12
+Aha0
+R15
+R2
+R3
+DEx4 work 4 ha00 0 22 19GJ6UId`_<WP;J]?2lo33
+!i122 3
+l16
+L15 13
+VXEF;dRJgHBP02H]Ha;fDS0
+!s100 hmg_@fLjIGQzJ85Qc?4Sg0
+R6
+32
+R7
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Ehatestbench00
+Z21 w1630615278
+R2
+R3
+!i122 4
+R0
+Z22 8C:/Practica-05/hatestbench00/hatestbench00.vhdl
+Z23 FC:/Practica-05/hatestbench00/hatestbench00.vhdl
+l0
+L3 1
+VI9Z7Tbfnhf;O7;S2khI0d3
+!s100 fXi3c855RTSB0iG0<3H^J0
+R6
+32
+R7
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|C:/Practica-05/hatestbench00/hatestbench00.vhdl|
+!s107 C:/Practica-05/hatestbench00/hatestbench00.vhdl|
+!i113 1
+R11
+R12
+Ahatestbench0
+R2
+R3
+DEx4 work 13 hatestbench00 0 22 I9Z7Tbfnhf;O7;S2khI0d3
+!i122 4
+l19
+L6 42
+VXYHAkEVM`0SaBiFTUV4SB0
+!s100 <9O:M44hjcI7PDkCR=6fP1
+R6
+32
+R7
+!i10b 1
+R18
+R24
+Z25 !s107 C:/Practica-05/hatestbench00/hatestbench00.vhdl|
+!i113 1
+R11
+R12
+Ppackageha00
+R2
+R3
+!i122 0
+w1630553038
+R0
+8C:/Practica-05/hatestbench00/packageha00.vhdl
+FC:/Practica-05/hatestbench00/packageha00.vhdl
+l0
+L3 1
+Vbk`mELNi9507;:RaT5eHT1
+!s100 HR<9iLAANHiUhYdOez]E_1
+R6
+32
+Z26 !s110 1630615401
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|C:/Practica-05/hatestbench00/packageha00.vhdl|
+!s107 C:/Practica-05/hatestbench00/packageha00.vhdl|
+!i113 1
+R11
+R12
+Exora00
+Z27 w1630552970
+R2
+R3
+!i122 1
+R0
+Z28 8C:/Practica-05/hatestbench00/xora00.vhdl
+Z29 FC:/Practica-05/hatestbench00/xora00.vhdl
+l0
+L3 1
+VRiGeRL>@O<1[1DXTmkZRS0
+!s100 Z;G;az4FIahl67V@9;@M>0
+R6
+32
+R26
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-work|work|C:/Practica-05/hatestbench00/xora00.vhdl|
+Z31 !s107 C:/Practica-05/hatestbench00/xora00.vhdl|
+!i113 1
+R11
+R12
+Axora0
+R2
+R3
+DEx4 work 6 xora00 0 22 RiGeRL>@O<1[1DXTmkZRS0
+!i122 1
+l11
+R13
+Vj0zXGzRZlUf6ZbT@PT`J81
+!s100 ?21C[MmZlWcS@5?D8fFE62
+R6
+32
+R26
+!i10b 1
+R8
+R30
+R31
+!i113 1
+R11
+R12
